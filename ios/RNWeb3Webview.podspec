@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "author@domain.cn" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/author/RNWeb3Webview.git", :tag => "master" }
+  s.source       = { :git => "https://github.com/bachlongkocanh/react-native-web3-webview.git", :tag => "master" }
   s.source_files  = "RNWeb3Webview/**/*.{h,m}"
   s.requires_arc = true
 
