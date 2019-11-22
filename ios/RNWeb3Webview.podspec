@@ -3,10 +3,8 @@ Pod::Spec.new do |s|
   s.name         = "RNWeb3Webview"
   s.version      = "1.0.0"
   s.summary      = "RNWeb3Webview"
-  s.description  = <<-DESC
-                  RNWeb3Webview
-                   DESC
-  s.homepage     = ""
+  s.description  = "Web3 webview"
+  s.homepage     = "http://"
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "author@domain.cn" }
@@ -14,8 +12,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/bachlongkocanh/react-native-web3-webview.git", :tag => "master" }
   s.source_files  = "RNWeb3Webview/**/*.{h,m}"
   s.requires_arc = true
-
-
   s.dependency "React"
   #s.dependency "others"
 
